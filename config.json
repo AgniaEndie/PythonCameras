@@ -1,0 +1,15 @@
+{
+  "config": {
+    "test": {
+      "host": "localhost:8082/neurosocket/stream",
+      "port": 8082,
+      "ssl": false
+    },
+    "prod": {
+      "host": "foxworld.online",
+      "port": 26612,
+      "ssl": false
+    },
+    "use": "test"
+  }
+}
